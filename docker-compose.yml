@@ -1,15 +1,4 @@
 version: '3.4'
 
 services:
-  simpleecommerce.services.catelogapi:
-    image: ${DOCKER_REGISTRY-}simpleecommerceservicescatelogapi
-    build:
-      context: .
-      dockerfile: Services\SimpleECommerce.Services.CatelogApi\Dockerfile
-
-  simpleecommerce.services.orderapi:
-    image: ${DOCKER_REGISTRY-}simpleecommerceservicesorderapi
-    build:
-      context: .
-      dockerfile: SimpleECommerce.Services.OrderApi\Dockerfile
 
